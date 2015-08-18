@@ -1,0 +1,36 @@
+baseurl = "http://tnt.wicast.tk/"
+languageCode = "zh-cn"
+title = "wicast's TNT"
+DisqusShortname = "wicast"
+
+paginate = 5
+
+[Params]
+    author= "wicast"
+    authorwebsite = "http://tnt.wicast.tk"
+    bio="兴趣使然的程序员"
+    DateForm = "2006 Jan 2"
+    GoogleAnalyticsUserID= "UA-56844782-1"
+    ShowRelatedPost= "True"
+    cover = "images/pixiv_mc.jpg"
+    logo = "images/logo.jpg"
+    #twitterName = "wicastchen"
+
+[permalinks]
+	post= "/:year/:month/:day/:filename"
+
+
+
+[[menu.main]]
+  name = "Links"
+  weight = -120
+  identifier = "links"
+  url = "/links"
+
+#[[menu.main]]
+#  name = "About me"
+#  weight = -110
+#  identifier = "about"
+#  url = "/about"
+
+canonifyurls= true
