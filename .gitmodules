@@ -1,3 +1,6 @@
 [submodule "themes/casper"]
 	path = themes/casper
 	url = git@github.com:wicastchen/casper.git
+[submodule "gitcafe"]
+	path = gitcafe
+	url = git@gitcafe.com:wicast/wicast.git
