@@ -29,6 +29,8 @@ Linux 下有个叫 SSH-agent，对应 windows 下的 putty 也有个叫 pageant 
 
 而 KeeAgent 所起到的作用与 SSH-agent 完全一样，只是 KeeAgent 驻于 KeePass 之中，而 SSH-agent 则属于 openSSH 软件包下（pageant 则属于 putty 软件包），使用方法几乎是一样的。
 
+**Update:重装了一次系统后发现，KeeAgent 在 Linux 下是直接调用了 SSH-agent 这类外部软件，其自身并未实现 agent 的功能，所以如果没有安装 openssh 或者其他类似软件是无法工作的！**
+
 #### 安装
 arch 用户请直接从 AUR 安装 [keepass-plugin-keeagent](https://aur.archlinux.org/packages/keepass-plugin-keeagent/) 。其他OS用户请查看[官方教程](http://lechnology.com/software/keeagent/installation/)，使用 GNOME Keyring 的用户请注意一些额外修改。
 
