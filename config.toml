@@ -5,6 +5,8 @@ DisqusShortname = "wicast"
 
 paginate = 5
 
+[author]
+    name = "wicast"
 [Params]
     author= "wicast"
     authorwebsite = "http://tnt.wicast.tk"
