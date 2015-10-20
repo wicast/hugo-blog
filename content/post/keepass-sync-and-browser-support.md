@@ -16,7 +16,7 @@ imageurl: "https://41.media.tumblr.com/c52fec0a8ad4c1ddb6d93870290619d7/tumblr_n
 ### 浏览器支持
 先来说浏览器的，其实 KeePass 原本就自带了一个 Global Auto-type 的功能，但是实际这个功能个人使用下来并不舒服。。。。首先 Linux 下得绑定快捷键才能触发 Global Auto-type，其次在我的 xfce4 下面这个功能完全不能在浏览器下工作QAQ
 
-功能不满足不了咱门就得上插件了。KeePass 插件的安装也是特别简单，下载了 ,plgx 格式的插件文件直接扔到 KeePass 所在的文件夹就行，下次启动 KeePass 之后会自动编译插件。 ~~Linux用户得修改下权限才能通过编译233333~~
+功能不满足不了咱门就得上插件了。KeePass 插件的安装也是特别简单，下载了 .plgx 格式的插件文件直接扔到 KeePass 所在的文件夹就行，下次启动 KeePass 之后会自动编译插件。 ~~Linux用户得修改下权限才能通过编译233333，不过大部分插件在 AUR 能找到。~~
 
 #### [keepasshttp](https://github.com/pfn/keepasshttp)
 这是个由第三方开发的一个 KeePass 浏览器辅助工具，需要在 KeePass 和浏览器两边分别装上插件才能使用。
