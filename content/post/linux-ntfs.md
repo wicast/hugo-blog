@@ -5,7 +5,7 @@ draft = false
 image = ""
 imageurl = "https://41.media.tumblr.com/c52fec0a8ad4c1ddb6d93870290619d7/tumblr_nmcb5higeE1tqgztwo3_1280.jpg"
 tags = ["Linux","Tips"]
-title = "Linux中使用普通用户开机挂载NTFS分区（免密码）"
+title = "Linux 中使用普通用户开机挂载 NTFS 分区（免密码）"
 
 +++
 

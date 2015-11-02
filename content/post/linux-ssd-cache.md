@@ -5,7 +5,7 @@ draft = false
 image = ""
 imageurl = "https://41.media.tumblr.com/c52fec0a8ad4c1ddb6d93870290619d7/tumblr_nmcb5higeE1tqgztwo3_1280.jpg"
 tags = ["SSD","Linux","Tips"]
-title = "使用小容量SSD加速系统"
+title = "使用小容量 SSD 加速系统"
 
 +++
 之前也是因为看到依云学姐的这篇 [使用 bcache 自制「混合硬盘」](http://lilydjwg.is-programmer.com/2015/5/11/self-made-sshd-with-bcache.92025.html)，才想到本子上的 24G SSD 可以这么被利用起来，Manjaro 的时候用了 LVM 把 SSD 分区和 HDD 分区给连了起来，然而除了多 24G 容量以外 SSD 的速度优势一点都没有感受到……最后还因为 SSD 坏块的缘故把系统弄挂了。

@@ -5,7 +5,7 @@ draft = false
 image = ""
 imageurl = "https://41.media.tumblr.com/c52fec0a8ad4c1ddb6d93870290619d7/tumblr_nmcb5higeE1tqgztwo3_1280.jpg"
 tags = ["git","gogs"]
-title = "在cubieboard上部署gogs自建私人gitserver"
+title = "在 Cubieboard 上部署 gogs 自建私人 gitserver"
 
 +++
 
@@ -15,7 +15,7 @@ title = "在cubieboard上部署gogs自建私人gitserver"
 自建 gitserver方案有很多，有裸 ssh 直接建立的、还有一种方案是 gitlab 直接山寨的 github，不过目测 ruby 的脚本在咱的 arm 上不会跑得很流畅……于是选用了 golang 的 gogs 方案，编译型的语言应该能比脚本跑得快点。
 
 #### 安装
-其实安装也没啥好说的，咱用的 Archlinuxarm，直接可以在 AUR 找到[软件包](https://aur.archlinux.org/packages/gogs/)自动编译，PKGBUILD 里已经有写了“armv7”支持，如果是树莓派的话 makepkg 的时候可能还需要加 “-A” 参数忽略硬件平台。
+其实安装也没啥好说的，咱用的 Archlinuxarm，直接可以在 AUR 找到[软件包](https://aur.archlinux.org/packages/gogs/)自动编译，PKGBUILD 里已经有写了“armv7”支持，如果是树莓派的话 makepkg 的时候可能还需要加 `“-A”` 参数忽略硬件平台。
 
 其他操作系统的请在[官方文档](http://gogs.io/docs/installation)寻找安装方法.
 
@@ -24,7 +24,7 @@ title = "在cubieboard上部署gogs自建私人gitserver"
 ```
 systemctl start gogs
 ```
-就让服务运行起来了，gogs 的服务用的是一个叫 gogs 的用户运行的，默认的用户路径是 /srv/gogs，配置文件也在这里。gogs 的配置文件模版放在 /usr/share/gogs/conf 里。
+就让服务运行起来了，gogs 的服务用的是一个叫 gogs 的用户运行的，默认的用户路径是 `/srv/gogs`，配置文件也在这里。gogs 的配置文件模版放在 `/usr/share/gogs/conf 里`。
 
 gogs 默认监听的 3000 端口，而在咱的局域网内，alarm （archlinuxarm）这个域名被 dnsmasq 自动映射到了某个内网 ip，很便利。第一次进入 gogs 的 web 页面就会看到初始化配置的界面了。
 
