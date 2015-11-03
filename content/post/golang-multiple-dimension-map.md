@@ -11,7 +11,7 @@ title = "Golang 中使用多维 map"
 
 Golang 的 XML/JSON 解析库乍看使用起来很方便，只要构造一样结构的 Struct 就可以一下子导入到变量中去了.其实手工构造 Struct 非常容易出现结构偏差，而且最要命的是 Unmarshal() 执行的时候不是严格导入所以没有任何报错.
 
-于是这两天写了一个给 Golang 用的 XML to Struct 生成器，希望能一劳永逸.
+于是这两天写了一个给 Golang 用的 XML to Struct [生成器](https://github.com/wicast/xj2s)，希望能一劳永逸.
 
 不过在制作过程中有遇到了一个不太容易发现的坑……也就是标题所说的多维 map.
 
