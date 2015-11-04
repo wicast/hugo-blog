@@ -54,10 +54,10 @@ m["a"]=c
 ```
 m:=make(map[string]map[string]int)
 c:=make(map[string]int)
-b["b"]=1
+c["b"]=1
 m["a"]=c
 d:=make(map[string]int)
-c["c"]=2
+d["c"]=2
 m["a"]=d
 ```
 而这个时候再去查询 `m["a"]["b"]` 会发现这个值已经没有了，取而代之的是 `m["a"]["c"]`.  
