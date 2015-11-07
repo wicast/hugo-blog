@@ -14,7 +14,7 @@ Golang 的 XML/JSON 解析库乍看使用起来很方便，只要构造一样结
 于是这两天写了一个给 Golang 用的 XML to Struct [生成器](https://github.com/wicast/xj2s)，希望能一劳永逸.
 
 不过在制作过程中有遇到了一个不太容易发现的坑……也就是标题所说的多维 map.
-
+<!--more-->
 ##### 什么是 map
 首先 Golang 中的 map 与 JS，Py 里的 Map 函数并不是同一回事。前者是 Golang 中的一种基础数据类型，具有 Key:Value 的特性；而后者的 Map 是 MapReduce 中的那个 Map，把一组数据分发到其他地方.
 ##### 使用 map，以及多维 map 的坑

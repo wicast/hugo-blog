@@ -13,7 +13,7 @@ title = "在 Cubieboard 上部署 gogs 自建私人 gitserver"
 不过平时鼓捣自己项目的时候还是得有个 VCS 才行，零时的一个在线的私有副本还是有点需求的……
 
 自建 gitserver方案有很多，有裸 ssh 直接建立的、还有一种方案是 gitlab 直接山寨的 github，不过目测 ruby 的脚本在咱的 arm 上不会跑得很流畅……于是选用了 golang 的 gogs 方案，编译型的语言应该能比脚本跑得快点。
-
+<!--more-->
 #### 安装
 其实安装也没啥好说的，咱用的 Archlinuxarm，直接可以在 AUR 找到[软件包](https://aur.archlinux.org/packages/gogs/)自动编译，PKGBUILD 里已经有写了“armv7”支持，如果是树莓派的话 makepkg 的时候可能还需要加 `“-A”` 参数忽略硬件平台。
 
