@@ -58,7 +58,7 @@ http://zh.wikipedia.org/zh/WebDAV
 
 大部分国外网盘都会提供 WebDav 协议的访问支持，不过由于我朝特殊的网络环境，导致那些优秀的外国网盘服务在天朝非死即残。。。 ~~想让度娘支持WebDav这协议真是想多了~~
 
-好在国内总会有几个求异的公司。 [坚果云](https://jianguoyun.com)就是一家。之前用的 [box.net](https://box.net) 的 WebDav 服务来同步数据库，别提有多慢了。。。
+好在国内总会有几个求异的公司。[坚果云](https://jianguoyun.com)就是一家。之前用的 [box.net](https://box.net) 的 WebDav 服务来同步数据库，别提有多慢了。。。
 
 
 要注意的是不同提供商的 WebDav 登陆密码是不同的，坚果云用的是生成一个 token 来作为的密码，而 box.net 则是直接用了帐号的密码。
