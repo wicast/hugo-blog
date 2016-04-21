@@ -4,7 +4,7 @@ date = "2015-05-04T17:27:23+08:00"
 draft = false
 image = ""
 imageurl = "https://41.media.tumblr.com/c52fec0a8ad4c1ddb6d93870290619d7/tumblr_nmcb5higeE1tqgztwo3_1280.jpg"
-tags = ["Golang"]
+tags = ["Golang","编程语言"]
 title = "初入坑golang，感觉良好"
 
 +++
