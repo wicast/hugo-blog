@@ -4,3 +4,6 @@
 [submodule "gitcafe"]
 	path = gitcafe
 	url = git@gitcafe.com:wicast/wicast.git
+[submodule "coding"]
+	path = coding
+	url = git@git.coding.net:wicast/wicast.git
