@@ -2,6 +2,7 @@
 date = "2015-03-15T20:22:37+08:00"
 title = "博客生成器换至Hugo"
 imageurl = "https://41.media.tumblr.com/c52fec0a8ad4c1ddb6d93870290619d7/tumblr_nmcb5higeE1tqgztwo3_1280.jpg"
+draft = false
 +++
 
 #### Don’t panic.
